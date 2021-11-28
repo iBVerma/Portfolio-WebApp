@@ -1,17 +1,17 @@
 import React from "react";
 import{useLocation} from 'react-router-dom';
-import {Arrowright16} from '@carbon/icons-react';
+import {ArrowRight16} from '@carbon/icons-react';
 
 
 import {HeaderContainer,Header, Image, ViewResumeLink } from './styles';
 
 const UserHeader = ({user}) =>{
-    const location = userLocation();
+    const location = useLocation();
 
     return(
         <HeaderContainer isHome={location.pathname === '/'}>
             <Header>
-                <Image src={UserHeader.basics.picture} />
+                <Image src={user.basics.picture} />
                 <div>
                     <h2>{user.basics.name}</h2>
                     <h4>

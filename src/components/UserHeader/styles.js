@@ -6,11 +6,13 @@ export const HeaderContainer = styled.div`
 
     @media(maax-width:640px){
         display: ${({isHome}) => (!isHome ? 'none' : 'flex')};
+        flex-direction: column;
     }
 `;
 
 export const Header = styled.div`
   display: flex;
+  
   @media (max-width: 640px) {
     flex-direction: column;
   }

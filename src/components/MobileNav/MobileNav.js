@@ -13,7 +13,7 @@ const MobileNav = () => {
                         hasIconOnly
                         renderIcon = {User32}
                         iconDescription = "Me"
-                        tooltiPosition = "buttom"
+                        tooltiPosition = "bottom"
                     />
                 </NavLink>
                 <NavLink to="/projects">
