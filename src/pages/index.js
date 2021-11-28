@@ -21,3 +21,5 @@ const Pages = ({ user }) => {
     </Router>
   );
 };
+
+export default Pages;
