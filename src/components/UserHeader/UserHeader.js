@@ -24,7 +24,7 @@ const UserHeader = ({user}) =>{
                         </a>
                     </h4>
                     <p>{user.basics.label}</p>
-                    <p>Coding in {user.basics.region}</p>
+                    <p>Living in {user.basics.region}</p>
                     <p>{user.basics.yearsOfExperience} years of experience as a developer</p>
                     <p>{user.basics.headline}</p>
                     <p>
@@ -41,7 +41,7 @@ const UserHeader = ({user}) =>{
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <span>View Résumé</span>
+                    <span>View Resume</span>
                     <ArrowRight16 />
                 </ViewResumeLink>
             </div>

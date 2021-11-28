@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://iBVerma.github.io/iBVerma.github.io",
   "dependencies": {
     "@carbon/icons-react": "^10.43.0",
